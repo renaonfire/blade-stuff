@@ -1,0 +1,32 @@
+<% include ./partials/header %>
+
+<link rel="stylesheet" href="/stylesheets/contact.css">
+
+<% include ./partials/navbar%>
+
+<div class="content-box">
+        <div class="subcontent">
+            <h1>Contact Us</h1>
+            <div class="ui horizontal divider"><i class="rocket icon"></i></div>
+            <form class="ui form" action="/contact" method="POST">
+                <div class="field">
+                    <label class="label">Your Name</label>
+                    <input type="text" name="contact[name]" placeholder="Enter Name">
+                </div>
+                <div class="field">
+                    <label class="label">Your Email</label>
+                    <input type="text" name="contact[email]" placeholder="Enter Email">
+                </div>
+                    <div class="field">
+                        <label class="label">Your Message</label>
+                    <textarea name="contact[message]" id="message" cols="30" rows="7" placeholder="Type Your Message Here"></textarea>
+                </div>
+                    <button class="ui dark button">Submit</button>
+        </form>
+        </div>        
+    </div>
+
+<% include ./partials/footer %>
+
+</body>
+</html>

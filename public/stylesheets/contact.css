@@ -1,0 +1,42 @@
+html, body {
+    height: 100%
+ }
+ 
+ .content-box {
+     position: relative;
+     width: 100%;
+     min-height: 100%;
+ }
+ 
+ .content-box .subcontent {
+     position: absolute;
+     top: 20%;
+     left: 25%;
+     text-align: center;
+     font-size: 23px;
+     width: 50%;
+     font-family: 'Red Hat Text', sans-serif;
+     color: #FEFF02;
+ }
+ 
+ .content-box .subcontent h1 {
+     font-family: 'Montserrat Subrayada', sans-serif;
+     font-size: 42px;
+ }
+
+
+ .ui.horizontal.divider i {
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+form div {
+    text-align: left;
+    
+}
+
+.ui.form .field>label {
+    font-family: 'Red Hat Text', sans-serif;
+    color: #FEFF02;
+    font-size: 16px;
+}

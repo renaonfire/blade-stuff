@@ -1,0 +1,131 @@
+html, body {
+   height: 100%
+}
+
+.content-box {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+}
+
+.content-box .subcontent {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    text-align: center;
+    font-size: 23px;
+    width: 80%;
+    font-family: 'Red Hat Text', sans-serif;
+    color: #FEFF02;
+}
+
+.content-box .subcontent h1 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 42px;
+}
+
+.ui.horizontal.divider i {
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.ui.horizontal.divider {
+    color: #FEFF02;
+}
+
+div.content-box2, div.content-box4 {
+    background-image: url("/Slider1.jpg");
+   
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/* div.content-box2 .subcontent, .content-box4 .subcontent {
+    color: #000;
+  } */
+
+  div.content-box1, div.content-box3 {
+    /* color: rgb(121, 120, 120); */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  div.content-box1 {
+    background-image: url("/UAV.jpg");
+  }
+  div.content-box3 {
+    background-image: url("/UAV.jpg");
+  }
+
+
+  .ui.horizontal.segments {
+      background-color: rgba(0, 0, 0, 0);
+      border: none;
+      box-shadow: none;
+  }
+
+  .ui.horizontal.segments img {
+      border-radius: 10%;
+  }
+
+  .image-segm-img {
+    height: 100%;
+    width: 70%;
+    /* float: right; */
+    margin-top: 3%;
+
+}
+
+.image-segm-img img {
+    width: 85vh;
+    border-radius: 50px;
+}
+
+.image-segm-desc {
+    /* float: left; */
+    width: 25%;
+    text-align: center;
+    height: 100%;
+    margin-top: 20vh;
+    
+    
+}
+
+.image-segm-desc p {
+    font-size: 35px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#third .image-segm-desc {
+    float: left;
+    margin-left: 5%;
+}
+
+#third .image-segm-img {
+    float: right;
+}
+
+#fourth .image-segm-desc {
+    float: right;
+    margin-right: 5%;
+}
+
+#fourth .image-segm-img {
+    float: left;
+}
+
+
+/* animaiton */
+
+.subcontent {
+    opacity: 0;
+    transition: opacity .85s .25s ease-out;
+  }
+  
+  .subcontent.is-visible {
+    opacity: 1;
+  }
+

@@ -1,0 +1,267 @@
+html, body {
+    margin: 0;
+    
+}
+
+body {
+    background-image: url("/SliderWithFade.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* OVERRIDE SEMANTIC UI */
+
+.ui.segment {
+    border: none;
+    box-shadow: none;
+}
+
+/* NAVBAR STYLES  */
+
+#logo {
+    height: 60px;
+    width: auto;
+   
+}
+#navbar {
+    background-color: rgba(0, 0, 0, 0);
+  
+}
+
+#navbar a {
+    color: #79CC50;
+    font-size: 16px;
+    
+}
+
+#icon-nav {
+    color: #000000;
+}
+
+#icon-nav {
+    float: right;
+    background-color: rgba(0, 0, 0, 0);
+    color: #79CC50;
+    border: none;
+    box-shadow: none;
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    margin-right: 84px;
+    
+}
+
+#icon-nav a {
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 12px;
+}
+
+.item {
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+#right-nav {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    box-shadow: none;
+    margin-right: 74px;
+    
+}
+
+/* INDEX - HEADING  */
+
+#main-content {
+    margin-top: 20vh;
+    color: #FEFF02;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+#main-description {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 20px;
+    
+}
+
+#main-description h1 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 60px;
+    color: #FEFF02;
+}
+
+#moto {
+    font-size: 40px;
+    
+}
+
+/* VIDEO */
+
+#main-video {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+
+#video {
+    visibility: hidden; 
+    float: right;
+    margin-top: 7vh;
+    
+}
+
+#play-button button {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    float: left;
+    margin-top: 23vh;
+    font-size: 60px;
+    color: #FEFF02;
+}
+
+/* FOOTER STYLES */
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    margin-right: 156px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#footer a {
+    color: #79CC50;
+    font-size: 25px;
+}
+
+
+/* HOVER  */
+
+#footer a:hover {
+    color: #FEFF02;
+    animation: increaseFont 95ms linear;
+    animation-fill-mode: forwards !important;
+}
+
+#navbar a:hover {
+    color: #FEFF02;
+    animation: shake 95ms infinite;
+    font-size: 17px;
+    animation-timing-function: linear;  
+}
+
+#play-button button:hover {
+    color: #79CC50;
+}
+
+
+/* ANIMATIONS */
+
+@keyframes increaseFont {
+    0% {
+        font-size: 25px;
+        animation-timing-function: ease-in;
+    }
+
+    50% {
+        font-size: 27px;
+    }
+
+    100% {
+        font-size: 30px;
+    }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+    }
+
+  
+
+@keyframes wiggle {
+    0% { transform: translate(2px, 0); }
+    50% { transform: translate(-2px, 0); }
+    100% { transform: translate(2px, 0); }
+  }
+  
+
+
+  @keyframes shake {
+    0% { transform: rotate(0.5deg); }
+    50% { transform: rotate(-0.5deg); }
+    100% { transform: rotate(0.5deg); }
+  }
+
+
+/* MEDIA SCREENS */
+
+@media screen and (max-width: 991px) {
+    #main-description h1 {
+      font-size: 43px;
+    }
+    #moto {
+        font-size: 30px;
+    }
+    #desc {
+        font-size: 18px;
+    }
+    #footer a {
+        font-size: 25px;
+    }
+    #right-nav {
+        visibility: collapse;
+    }
+    #icon-nav {
+        visibility: visible;
+        
+    }
+
+
+  }
+
+@media screen and (max-width: 742px) {
+    #main-description h1 {
+      font-size: 33px;
+    }
+    #moto {
+        font-size: 25px;
+    }
+    #desc {
+        font-size: 14px;
+    }
+    #icon-nav {
+        margin-right: 28px;
+    }
+
+  }
+
+@media screen and (max-width: 616px) {
+    #main-description h1 {
+      font-size: 25px;
+    }
+    #moto {
+        font-size: 18px;
+    }
+    #desc {
+        font-size: 15px;
+    }
+    #footer a {
+        font-size: 18px;
+    }
+    #play-button {
+        visibility: hidden;
+    }
+  }
+
+  
