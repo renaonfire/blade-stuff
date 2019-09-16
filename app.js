@@ -34,7 +34,6 @@ app.post("/contact", function(req, res){
 });
 
 
-app.listen(5000, function(req, res){
-    console.log("server listening");
-});
+app.listen(process.env.PORT || 5000);
+
 
