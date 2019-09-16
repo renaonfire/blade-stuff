@@ -1,3 +1,13 @@
 html, body {
     overflow: hidden;
+   
+}
+
+
+@media screen and (max-width: 616px){
+    html, body {
+        overflow: overlay;
+    }
+
+
 }

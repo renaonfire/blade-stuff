@@ -1,15 +1,17 @@
-div.content-box1 {
+div.content-box4 {
     background-image: url("/Slider1-1.jpg");
   }
 
-  div.content-box3 {
+  div.content-box2 {
     background-image: url("/ThePilot.jpg");
   }
 
-div.content-box2 {
-    background-image: url("/Slider3.jpg");
+  div.content-box3 {
+    background-image: url("/TheInspector.jpg");
   }
 
-  div.content-box4 {
-    background-image: url("/TheInspector.jpg");
+  .content-box2 .subcontent, .content-box3 .subcontent {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
   }

@@ -1,5 +1,6 @@
 html, body {
-    height: 100%
+    height: 100%;
+    overflow: overlay;
  }
  
  .content-box {
@@ -39,4 +40,15 @@ form div {
     font-family: 'Red Hat Text', sans-serif;
     color: #FEFF02;
     font-size: 16px;
+}
+
+@media screen and (max-width: 991px) {
+    .content-box .subcontent h1 {
+        font-size: 35px;
+    }
+
+    .content-box .subcontent {
+        height: 50%;
+    }
+
 }

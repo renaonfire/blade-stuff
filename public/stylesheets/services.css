@@ -129,3 +129,13 @@ div.content-box2, div.content-box4 {
     opacity: 1;
   }
 
+
+  @media screen and (max-width: 991px) {
+    .content-box .subcontent h1 {
+        font-size: 35px;
+    }
+
+    .image-segm-desc p {
+        font-size: 25px;
+    }
+  }

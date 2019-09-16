@@ -1,6 +1,6 @@
 html, body {
     margin: 0;
-    
+    min-height: 100%;   
 }
 
 body {
@@ -227,10 +227,42 @@ body {
         
     }
 
+    #icon-nav a:hover {
+        font-size: 13px;
+    }
+
+    #logo {
+        height: 45px;
+    }
+    .ui.horizontal.segments img {
+        height: 110px;
+        
+    }
+   
+
+    .content-box p {
+        font-size: 18px;
+    }
+
+
+    .ui.column.grid>[class*="seven wide"].column, .ui.grid>.column.row>[class*="seven wide"].column, .ui.grid>.row>[class*="seven wide"].column, .ui.grid>[class*="seven wide"].column {
+        width: 50% !important;
+    }
+   
+    .ui.column.grid>[class*="nine wide"].column, .ui.grid>.column.row>[class*="nine wide"].column, .ui.grid>.row>[class*="nine wide"].column, .ui.grid>[class*="nine wide"].column {
+        width: 50% !important;
+        
+
+    }
+
+    #footer {
+        padding-left: 30px;
+    }
+
 
   }
 
-@media screen and (max-width: 742px) {
+@media screen and (max-width: 760px) {
     #main-description h1 {
       font-size: 33px;
     }
@@ -243,6 +275,20 @@ body {
     #icon-nav {
         margin-right: 28px;
     }
+    #icon-nav a {
+        font-size: 11px;
+    }
+    #logo {
+        height: 40px;
+    }
+    .ui.horizontal.segments img {
+        height: 90px;
+        
+    }
+
+  
+
+   
 
   }
 
@@ -256,12 +302,65 @@ body {
     #desc {
         font-size: 15px;
     }
+    
     #footer a {
-        font-size: 18px;
+        font-size: 22px;
     }
     #play-button {
         visibility: hidden;
     }
+    #icon-nav a {
+        font-size: 10px;
+    }
+    #logo {
+        height: 30px;
+    }
+    .ui.grid>.column:not(.row), .ui.grid>.row>.column {
+        width: 80%;
+    }
+    .ui.column.grid>[class*="seven wide"].column, .ui.grid>.column.row>[class*="seven wide"].column, .ui.grid>.row>[class*="seven wide"].column, .ui.grid>[class*="seven wide"].column {
+        width: 80% !important;
+    }
+    .ui.column.grid>[class*="nine wide"].column, .ui.grid>.column.row>[class*="nine wide"].column, .ui.grid>.row>[class*="nine wide"].column, .ui.grid>[class*="nine wide"].column {
+        width: 80% !important;
+        position: relative;
+        left: 0;
+
+    }
+
+    #video {
+        visibility: visible;
+        width: 70%;
+        float: left;
+        padding-left: 10px;
+          
+      }
+    #video iframe {
+        height: 180px;
+        width: auto;
+    }
+    #play-button {
+        display: none;
+    }
+    #icon-nav a:hover {
+        font-size: 10px;
+    }
+    #footer {
+        padding-left: 40px;
+        position: inherit;
+        margin-top: 20px;
+    }
+    
+    html, body {
+        overflow: overlay;
+    }
+
+    #navbar {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    
   }
+
 
   
