@@ -6,7 +6,7 @@ html, body {
 
 @media screen and (max-width: 616px){
     html, body {
-        overflow: overlay;
+        /* overflow: overlay; */
         background-position: right;
     }
 
