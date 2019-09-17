@@ -120,3 +120,12 @@ $(window).on('mousewheel', function (e) {
 
 }); // end on mousewheel event
 //--- END SCROLL EVENTS ---//
+
+
+//hamburger
+
+$(document).ready(function(){
+  $(".hamburger").click(function(){
+      $("#icon-nav").toggleClass("active");
+  });
+});

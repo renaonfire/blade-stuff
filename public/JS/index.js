@@ -1,6 +1,7 @@
 var button = document.querySelector("#play-button button");
 var video = document.querySelector("#video");
-var iframe = document.querySelector("#video iframe");
+
+var hamburger = $(".hamburger");
 
 
 
@@ -21,4 +22,11 @@ button.addEventListener("click", function() {
     }
     
 });
+
+$(document).ready(function(){
+    $(".hamburger").click(function(){
+        $("#icon-nav").toggleClass("active");
+    });
+});
+
 

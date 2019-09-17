@@ -47,11 +47,18 @@ body {
     color: #79CC50;
     border: none;
     box-shadow: none;
-    visibility: hidden;
     position: absolute;
     right: 0;
     margin-right: 84px;
     
+}
+
+.ui.stackable.labeled.icon.menu {
+    display: none;
+}
+
+.ui.stackable.labeled.icon.menu.active {
+    display: block;
 }
 
 #icon-nav a {
@@ -68,6 +75,17 @@ body {
     border: none;
     box-shadow: none;
     margin-right: 74px;
+    
+}
+
+.hamburger {
+    font-size: 25px;
+    color: #79CC50;
+    position: absolute;
+    right: 0;
+    float: right;
+    margin: 20px;
+    display: none;
     
 }
 
@@ -113,6 +131,11 @@ body {
     float: right;
     margin-top: 7vh;
     
+}
+
+#video iframe {
+    height: 280px;
+    width: 480px;
 }
 
 #play-button button {
@@ -222,9 +245,9 @@ body {
     #right-nav {
         visibility: collapse;
     }
-    #icon-nav {
-        visibility: visible;
-        
+    
+    .hamburger {
+        display: block;
     }
 
     #icon-nav a:hover {
@@ -238,31 +261,23 @@ body {
         height: 110px;
         
     }
-   
 
     .content-box p {
         font-size: 18px;
-    }
-
-
-    .ui.column.grid>[class*="seven wide"].column, .ui.grid>.column.row>[class*="seven wide"].column, .ui.grid>.row>[class*="seven wide"].column, .ui.grid>[class*="seven wide"].column {
-        width: 50% !important;
-    }
-   
-    .ui.column.grid>[class*="nine wide"].column, .ui.grid>.column.row>[class*="nine wide"].column, .ui.grid>.row>[class*="nine wide"].column, .ui.grid>[class*="nine wide"].column {
-        width: 50% !important;
-        
-
     }
 
     #footer {
         padding-left: 30px;
     }
 
+    #video iframe {
+        height: 180px;
+        width: 320px;
+    }
 
   }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 767px) {
     #main-description h1 {
       font-size: 33px;
     }
@@ -273,9 +288,18 @@ body {
         font-size: 14px;
     }
     #icon-nav {
-        margin-right: 28px;
+        margin-right: 70px;
+        background-color: rgba(0, 0, 0, 0.7);
+        
     }
+    
+
+   
+
     #icon-nav a {
+        font-size: 11px;
+    }
+    #icon-nav a:hover {
         font-size: 11px;
     }
     #logo {
@@ -286,7 +310,18 @@ body {
         
     }
 
-  
+    #play-button button{
+        margin-top: 1vh;
+    }
+
+    #video {
+        float: left;
+        margin-top: 1vh;
+        margin-left: 5vh;
+        
+    }
+
+   
 
    
 
@@ -315,18 +350,6 @@ body {
     #logo {
         height: 30px;
     }
-    .ui.grid>.column:not(.row), .ui.grid>.row>.column {
-        width: 80%;
-    }
-    .ui.column.grid>[class*="seven wide"].column, .ui.grid>.column.row>[class*="seven wide"].column, .ui.grid>.row>[class*="seven wide"].column, .ui.grid>[class*="seven wide"].column {
-        width: 80% !important;
-    }
-    .ui.column.grid>[class*="nine wide"].column, .ui.grid>.column.row>[class*="nine wide"].column, .ui.grid>.row>[class*="nine wide"].column, .ui.grid>[class*="nine wide"].column {
-        width: 80% !important;
-        position: relative;
-        left: 0;
-
-    }
 
     #video {
         visibility: visible;
@@ -353,10 +376,17 @@ body {
     
     html, body {
         overflow: overlay;
+        background-position: right;
     }
 
     #navbar {
         background-color: rgba(0, 0, 0, 0.5);
+        
+    }
+
+    .ui.horizontal.segments img {
+        height: 60px;
+        
     }
 
     
