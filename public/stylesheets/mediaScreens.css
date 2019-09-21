@@ -175,6 +175,11 @@
     #main-description h1 {
       font-size: 25px;
     }
+
+    #main-content {
+        margin-top: 60px;
+    }
+    
     #moto {
         font-size: 18px;
     }
@@ -220,7 +225,7 @@
     }
     
     html, body {
-        overflow: overlay;
+        /* overflow: overlay; */
         background-position: right;
     }
 
