@@ -1,0 +1,245 @@
+/* MEDIA SCREENS */
+/* for services horizontal image stack */
+@media screen and (max-width: 1211px) {
+    .ui.horizontal.segments img {
+        height: 140px;
+        
+    }
+}
+
+@media screen and (max-width: 991px) {
+/* landing screen only */
+    #main-description h1 {
+      font-size: 43px;
+    }
+    #moto {
+        font-size: 30px;
+    }
+    #desc {
+        font-size: 18px;
+    }
+    #video iframe {
+        height: 180px;
+        width: 320px;
+    }
+
+    /* footer and nav */
+    #footer a {
+        font-size: 25px;
+    }
+
+    #footer {
+        padding-left: 30px;
+    }
+
+    #right-nav {
+        visibility: collapse;
+    }
+    
+    .hamburger {
+        display: block;
+    }
+
+    #icon-nav a:hover {
+        font-size: 13px;
+    }
+
+    #logo {
+        height: 45px;
+    }
+
+    /* images on service 3 x  */
+    .ui.horizontal.segments img {
+        height: 110px;
+        
+    }
+    
+    .image-segm-desc p {
+        font-size: 25px;
+    }
+
+    .image-segm-img img {
+      height: 250px;
+      width: auto;
+    }
+
+    /* services and other pages */
+    .content-box p {
+        font-size: 18px;
+    }
+
+    .content-box .subcontent h1 {
+        font-size: 35px;
+    }
+
+    
+
+  }
+
+@media screen and (max-width: 767px) {
+    #main-description h1 {
+      font-size: 33px;
+    }
+    #moto {
+        font-size: 25px;
+    }
+    #desc {
+        font-size: 14px;
+    }
+    #icon-nav {
+        margin-right: 70px;
+        background-color: rgba(0, 0, 0, 0.7);
+        
+    }
+    
+    #icon-nav a {
+        font-size: 11px;
+    }
+    #icon-nav a:hover {
+        font-size: 11px;
+    }
+    #logo {
+        height: 40px;
+    }
+    .ui.horizontal.segments img {
+        height: 90px;
+        
+    }
+    .image-segm-img img {
+        height: 240px;
+        width: auto;
+      }
+    #third .image-segm-img {
+        float: none;
+        margin-left: 12%;
+    }
+    #fourth .image-segm-img {
+        float: none;
+        margin-left: 12%;
+    }
+    
+
+    #play-button button{
+        margin-top: 1vh;
+    }
+
+    #video {
+        float: left;
+        margin-top: 1vh;
+        margin-left: 5vh;
+        
+    }
+
+   /* services and other content */
+   .content-box .subcontent {
+    left: 0;
+    top: 15vh;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+
+    #third .image-segm-desc {
+    float: none;
+    margin: 0 auto;
+}
+
+
+    #fourth .image-segm-desc {
+    float: none;
+    margin: 0 auto;
+    
+}
+
+   
+
+  }
+
+@media screen and (max-width: 667px) {
+    #third .image-segm-img {
+        
+        margin: 8%;
+    }
+    #fourth .image-segm-img {
+       
+        margin: 8%;
+    }
+}
+
+@media screen and (max-width: 616px) {
+    html, body {
+        background-position: right;
+    }
+    
+    #main-description h1 {
+      font-size: 25px;
+    }
+    #moto {
+        font-size: 18px;
+    }
+    #desc {
+        font-size: 15px;
+    }
+    
+    #footer a {
+        font-size: 22px;
+    }
+    #play-button {
+        visibility: hidden;
+    }
+    #icon-nav a {
+        font-size: 10px;
+    }
+    #logo {
+        height: 30px;
+    }
+
+    #video {
+        visibility: visible;
+        width: 70%;
+        float: left;
+        padding-left: 10px;
+          
+      }
+    #video iframe {
+        height: 180px;
+        width: auto;
+    }
+    #play-button {
+        display: none;
+    }
+    #icon-nav a:hover {
+        font-size: 10px;
+    }
+    #footer {
+        padding-left: 40px;
+        position: fixed;
+        margin-top: 20px;
+    }
+    
+    html, body {
+        overflow: overlay;
+        background-position: right;
+    }
+
+    #navbar {
+        background-color: rgba(0, 0, 0, 0.5);
+        
+    }
+
+    .ui.horizontal.segments img {
+        height: 60px;
+        
+    }
+    .image-segm-img img {
+        height: 200px;
+        width: auto;
+      }
+   
+    
+
+  }
+
+
+  
