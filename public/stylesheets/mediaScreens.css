@@ -196,6 +196,7 @@
     }
 
     #video {
+        margin-left: 1vh;
         visibility: visible;
         width: 70%;
         float: left;
