@@ -279,8 +279,8 @@
         float: left;  
     }
     #video iframe {
-        height: 150px;
-        width: 250px;
+        height: 200px;
+        width: 320px;
     }
    
     #icon-nav a:hover {
@@ -330,7 +330,6 @@
     }
 
     #textbox textarea {
-        width: 150px;
         height: 100px;
       }
     #third-horiz-segm {
@@ -368,6 +367,11 @@
 
   @media screen and (max-width: 375px) {
 
+    #video iframe {
+        height: 160px;
+        width: 290px;
+    }
+
     .image-segm-img img {
         height: 160px;
         width: auto;
@@ -398,6 +402,11 @@
     .ui.horizontal.segments img {
         height: 65px;
     }
+
+    #contact-subcontent {
+        margin-top: 25%;
+    }
+   
 
     #textbox textarea {
         height: 100px;
