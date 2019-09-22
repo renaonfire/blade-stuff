@@ -1,10 +1,10 @@
-html, body {
+/* html, body {
     margin: 0;
     min-height: 100%;  
    
-}
+} */
 
-body {
+html, body {
     background-image: url("/SliderWithFade.jpg");
     background-position: center;
     background-size: cover;
