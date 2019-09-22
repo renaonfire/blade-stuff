@@ -6,14 +6,27 @@
     }
 }
 
-@media screen and (max-width: 1211px) {
+@media screen and (max-width: 1112px) {
     .ui.horizontal.segments img {
         height: 140px;
         
     }
+
+    .ui.grid > [class*="seven wide"].column {
+        width: 52% !important;
+    }
+
+    .ui.grid > [class*="seven wide"].column {
+        width: 48% !important;
+    }
+
+    #video iframe {
+        height: 230px;
+        width: 360px;
+    }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1024px) {
 /* landing screen only */
     #main-description h1 {
       font-size: 43px;
