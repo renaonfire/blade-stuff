@@ -393,6 +393,11 @@
         margin-top: 30px;
     }
 
+    .image-segm-img img {
+        height: 160px;
+        width: auto;
+    }
+
     .image-segm-desc {
         margin: 0;
         margin-left: 33%
@@ -403,7 +408,6 @@
     }
 
     .field textarea {
-        width: 150px;
         height: 100px;
       }
 
@@ -423,20 +427,23 @@
     }
 
     .content-box .subcontent h1 {
-        font-size: 22px;
+        font-size: 20px;
     }
     .content-box .subcontent p {
         font-size: 13px;
     }
 
     .image-segm-img img {
-        height: 130px;
+        height: 135px;
         width: auto;
       }
 
     #video iframe {
         height: 120px;
         width: 220px;
+    }
+    .ui.horizontal.segments img {
+        height: 52px;
     }
 
     }
