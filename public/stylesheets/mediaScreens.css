@@ -240,6 +240,7 @@
   }
 
 @media screen and (max-width: 414px) {
+    
     html, body {
         background-position: right;
     }
@@ -275,9 +276,8 @@
         margin-right: 5%;
         margin-bottom: 10%;
         width: 100%;
-        float: left;
-          
-      }
+        float: left;  
+    }
     #video iframe {
         height: 150px;
         width: 250px;
@@ -291,13 +291,10 @@
         position: fixed;
         margin-top: 20px;
     }
-
-
     #navbar {
         background-color: rgba(0, 0, 0, 0.5);
         
     }
-
     .ui.horizontal.segments img {
         height: 70px;
         
@@ -306,8 +303,6 @@
         height: 180px;
         width: auto;
       }
-
-
     #third .image-segm-desc {
         margin-left: 37%;
 
@@ -338,13 +333,9 @@
         width: 150px;
         height: 100px;
       }
-    }
     #third-horiz-segm {
         display: none;
     }
-
- 
-   
     .ui.horizontal.divider i {
         font-size: 20px;
     }   
@@ -357,7 +348,6 @@
     }
 
     #textbox textarea {
-        width: 150px;
         height: 200px;
     }
     #main-content {
@@ -371,7 +361,7 @@
    
     
 
-  }
+}
 
 
   /* iphone 6 */
@@ -446,7 +436,7 @@
 
     }
 
-    @media screen and (max-height: 570px) {
+    @media screen and (max-height: 567px) {
         html, body {
             overflow: auto;
         }
