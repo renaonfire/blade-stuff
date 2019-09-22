@@ -157,7 +157,7 @@
 
   }
 
-@media screen and (max-width: 812px) {
+@media screen and (max-width: 896px) {
     #main-description h1 {
       font-size: 33px;
     }
@@ -200,18 +200,18 @@
     }
     
 
-    #play-button button{
-        margin-top: 1vh;
+    #play-button button {
+        margin-top: 10%;
     }
 
     #video {
         float: left;
         margin-top: 1%;
         margin-left: 5%;
+        margin-bottom: 10%;
         
     }
 
-   /* services and other content */
    .content-box .subcontent {
     left: 0;
     top: 15vh;
@@ -220,20 +220,41 @@
     
 }
 
+    .content-box .subcontent h1 {
+    font-size: 33px;
+
+}
+
+    .content-box .subcontent p {
+    font-size: 16px;
+}
+
+    .image-segm-img {
+        margin-left: 15%;
+    }
+    .image-segm-img img {
+        height: 190px;
+    }
+
 
     #third .image-segm-desc {
     float: none;
     margin: 0;
-    margin-left: 33%
+    margin-left: 37%
 }
 
 
     #fourth .image-segm-desc {
     float: none;
     margin: 0;
-    margin-left: 33%
+    margin-left: 37%
 
 }
+
+    #contact-subcontent {
+        left: 0;
+        margin-bottom: 10%;
+    }
 
    
 

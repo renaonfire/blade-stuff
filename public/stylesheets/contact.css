@@ -1,4 +1,6 @@
-
+html, body {
+    overflow: hidden;
+}
  .content-box {
      position: relative;
      width: 100%;
