@@ -111,7 +111,7 @@
       }
     #third .image-segm-img {
         float: none;
-        margin-left: 12%;
+        margin: 0;
     }
     #fourth .image-segm-img {
         float: none;
@@ -142,7 +142,8 @@
 
     #third .image-segm-desc {
     float: none;
-    margin: 0 auto;
+    margin: 0;
+    margin-left: 33%
 }
 
 
@@ -156,18 +157,7 @@
 
   }
 
-@media screen and (max-width: 667px) {
-    #third .image-segm-img {
-        
-        margin: 8%;
-    }
-    #fourth .image-segm-img {
-       
-        margin: 8%;
-    }
-}
-
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 668px) {
     html, body {
         background-position: right;
     }
@@ -239,34 +229,53 @@
         
     }
     .image-segm-img img {
-        height: 200px;
+        height: 160px;
         width: auto;
       }
+
+    #third .image-segm-img {
+        margin: 0;
+        margin-top: 30px;
+
+    }
+    #fourth .image-segm-img {
+       
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .content-box .subcontent p {
+        font-size: 14px
+    }
+
+    .content-box .subcontent h1 {
+        font-size: 26px;
+    }
+
+    .field textarea {
+        width: 150px;
+        height: 100px;
+      }
+}
    
     
 
   }
 
+
+
+
+/* iphone 5  */
   @media screen and (max-width: 568px) {
       #video {
           display: none;
       }
-
-      .content-box .subcontent h1 {
-        font-size: 22px;
-    }
-    .content-box .subcontent p {
-        font-size: 13px;
-    }
-
+  
+     
     #third-horiz-segm {
         display: none;
     }
-    .image-segm-img img {
-        height: 130px;
-        width: auto;
-      }
-
+    
     .ui.horizontal.divider i {
         font-size: 20px;
     }
@@ -280,11 +289,64 @@
 
     .field textarea {
         width: 150px;
-        height: 60px;
+        height: 200px;
       }
       #main-content {
         margin-top: 120px;
     }
   }
 
-  
+  /* iphone 6 */
+
+  @media screen and (max-width: 375px) {
+
+    .image-segm-img img {
+        height: 160px;
+        width: auto;
+      }
+
+    .content-box .subcontent h1 {
+        font-size: 26px;
+    }
+    .content-box .subcontent p {
+        font-size: 14px;
+    }
+
+    .image-segm-img {
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .image-segm-desc {
+        margin: 0;
+        margin-left: 33%
+    }
+
+    .ui.horizontal.segments img {
+        height: 65px;
+    }
+
+    .field textarea {
+        width: 150px;
+        height: 100px;
+      }
+
+  }
+
+  /* iphone 5 */
+  @media screen and (max-width: 320px) {
+
+    .content-box .subcontent h1 {
+        font-size: 22px;
+    }
+    .content-box .subcontent p {
+        font-size: 13px;
+    }
+
+    .image-segm-img img {
+        height: 130px;
+        width: auto;
+      }
+
+
+}
