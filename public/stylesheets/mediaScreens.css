@@ -147,7 +147,7 @@
         height: 300px;
       }
 
-    .field textarea {
+    #textbox textarea {
         height: 100px;
     }
 
@@ -332,7 +332,7 @@
         font-size: 26px;
     }
 
-    .field textarea {
+    #textbox textarea {
         width: 150px;
         height: 100px;
       }
@@ -354,7 +354,7 @@
         font-size: 13px;
     }
 
-    .field textarea {
+    #textbox textarea {
         width: 150px;
         height: 200px;
     }
@@ -407,13 +407,15 @@
         height: 65px;
     }
 
-    .field textarea {
+    #textbox textarea {
         height: 100px;
       }
 
     #video {
         margin-left: 0;
         margin-right: 5%;
+        float: left;
+        margin-bottom: 10%;
         
     }
 
