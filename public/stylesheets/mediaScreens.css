@@ -76,7 +76,7 @@
 
   }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 812px) {
     #main-description h1 {
       font-size: 33px;
     }
@@ -247,7 +247,7 @@
 
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 568px) {
       #video {
           display: none;
       }
