@@ -133,9 +133,10 @@
         margin-top: 0;
     }
 
-    .content-box .subcontent {
+    #contact-subcontent {
         width: 60%;
         left: 20%;
+        top: 18%;
     }
     .ui.horizontal.segments img {
         height: 130px;
@@ -150,6 +151,9 @@
         height: 100px;
     }
 
+    .ui.horizontal.divider i {
+        font-size: 25px;
+    }
 
   }
 
