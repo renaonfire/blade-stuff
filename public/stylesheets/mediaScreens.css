@@ -253,10 +253,10 @@
       }
 
       .content-box .subcontent h1 {
-        font-size: 25px;
+        font-size: 22px;
     }
     .content-box .subcontent p {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     #third-horiz-segm {
@@ -265,6 +265,19 @@
     .image-segm-img img {
         height: 130px;
         width: auto;
+      }
+
+    .ui.horizontal.divider i {
+        font-size: 20px;
+    }
+    .content-box .subcontent {
+        width: 75%;
+
+    }
+
+    .field textarea {
+        width: 150px;
+        height: 100px;
       }
   }
 
