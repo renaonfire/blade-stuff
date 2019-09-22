@@ -144,7 +144,7 @@
     #contact-subcontent {
         width: 60%;
         left: 20%;
-        top: 18%;
+
     }
     .ui.horizontal.segments img {
         height: 130px;
@@ -218,7 +218,7 @@
 
    .content-box .subcontent {
     left: 0;
-    top: 15vh;
+    top: 20%;
     margin: 0 auto;
     position: relative;
     
