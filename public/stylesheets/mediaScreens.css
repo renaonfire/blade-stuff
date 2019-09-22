@@ -221,6 +221,7 @@
     top: 20vh;
     margin: 0 auto;
     position: relative;
+    padding-bottom: 10%;
     
 }
 
@@ -354,9 +355,7 @@
         font-size: 26px;
     }
 
-    #textbox textarea {
-        height: 100px;
-      }
+
     #third-horiz-segm {
         display: none;
     }
@@ -380,7 +379,6 @@
 
     #contact-subcontent {
         left: 0;
-        margin-top: 20%;
     }
    
     
@@ -428,10 +426,6 @@
         height: 65px;
     }
 
-    #contact-subcontent {
-        margin-top: 25%;
-    }
-   
 
     #textbox textarea {
         height: 100px;
