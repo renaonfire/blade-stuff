@@ -37,18 +37,16 @@ div.content-box2, div.content-box4 {
     background-image: url("/Slider1.jpg");
    
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;
 }
 
-/* div.content-box2 .subcontent, .content-box4 .subcontent {
-    color: #000;
-  } */
+
 
   div.content-box1, div.content-box3 {
     /* color: rgb(121, 120, 120); */
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;
   }
 
