@@ -37,9 +37,20 @@
     #desc {
         font-size: 18px;
     }
+
+    #video {
+        float: left;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+
     #video iframe {
         height: 180px;
         width: 320px;
+    }
+
+    #play-button button {
+        margin-top: 10%;
     }
 
     /* footer and nav */
@@ -69,7 +80,7 @@
 
     /* images on service 3 x  */
     .ui.horizontal.segments img {
-        height: 110px;
+        height: 140px;
         
     }
     
@@ -78,17 +89,17 @@
     }
 
     .image-segm-img img {
-      height: 250px;
+      height: 330px;
       width: auto;
     }
 
     /* services and other pages */
     .content-box p {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .content-box .subcontent h1 {
-        font-size: 35px;
+        font-size: 40px;
     }
 
     
