@@ -16,7 +16,7 @@
         width: 52% !important;
     }
 
-    .ui.grid > [class*="seven wide"].column {
+    .ui.grid > [class*="nine wide"].column {
         width: 48% !important;
     }
 
@@ -103,6 +103,53 @@
     }
 
     
+
+  }
+
+/* nexus 7 tablet */
+  @media screen and (max-width: 960px) {
+
+    #main-content {
+        margin-top: 15vh;
+    }
+
+    .ui.grid > [class*="seven wide"].column {
+        width: 75% !important;
+    }
+    .ui.grid > [class*="nine wide"].column {
+        width: 75% !important;
+    }
+
+    #video {
+        margin-top: 0;
+    }
+
+    #video iframe {
+        height: 140px;
+        width: 260px;
+    }
+
+    #play-button button {
+        margin-top: 0;
+    }
+
+    .content-box .subcontent {
+        width: 60%;
+        left: 20%;
+    }
+    .ui.horizontal.segments img {
+        height: 130px;
+        
+    }
+
+    .image-segm-img img {
+        height: 300px;
+      }
+
+    .field textarea {
+        height: 100px;
+    }
+
 
   }
 
