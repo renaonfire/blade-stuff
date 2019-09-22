@@ -247,5 +247,25 @@
 
   }
 
+  @media screen and (max-width: 480px) {
+      #video {
+          display: none;
+      }
+
+      .content-box .subcontent h1 {
+        font-size: 25px;
+    }
+    .content-box .subcontent p {
+        font-size: 15px;
+    }
+
+    #third-horiz-segm {
+        display: none;
+    }
+    .image-segm-img img {
+        height: 130px;
+        width: auto;
+      }
+  }
 
   
