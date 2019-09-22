@@ -19,10 +19,18 @@
     .ui.grid > [class*="nine wide"].column {
         width: 48% !important;
     }
+    #video {
+        margin: 0;
+        margin-top: 25%;
+        
+    }
 
     #video iframe {
-        height: 230px;
-        width: 360px;
+        height: 200px;
+        width: 330px;
+    }
+    #play-button button {
+        margin-top: 40%;
     }
 }
 
@@ -199,10 +207,6 @@
         margin-left: 12%;
     }
     
-
-    #play-button button {
-        margin-top: 10%;
-    }
 
     #video {
         float: left;
