@@ -194,19 +194,7 @@
         height: 90px;
         
     }
-    .image-segm-img img {
-        height: 240px;
-        width: auto;
-      }
-    #third .image-segm-img {
-        float: none;
-        margin: 0;
-    }
-    #fourth .image-segm-img {
-        float: none;
-        margin-left: 12%;
-    }
-    
+
 
     #video {
         float: left;
@@ -236,9 +224,10 @@
 
     .image-segm-img {
         margin-left: 15%;
+        float: none;
     }
     .image-segm-img img {
-        height: 190px;
+        height: 170px;
     }
 
 
