@@ -222,9 +222,12 @@
     font-size: 16px;
 }
 
+    #third .image-segm-img {
+        float: none;
+    }
     .image-segm-img {
         margin-left: 15%;
-        float: none;
+        
     }
     .image-segm-img img {
         height: 170px;
@@ -253,6 +256,23 @@
    
 
   }
+
+
+@media screen and (max-width: 640px) {
+    .ui.horizontal.segments img {
+        height: 80px;
+        
+    }
+
+    .content-box .subcontent h1 {
+        font-size: 27px;
+
+    }
+    .content-box .subcontent p {
+        font-size: 13px; 
+    }
+
+}
 
 @media screen and (max-width: 414px) {
     
