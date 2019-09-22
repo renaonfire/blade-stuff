@@ -209,7 +209,8 @@
     top: 20vh;
     margin: 0 auto;
     position: relative;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
     
 }
 
@@ -259,7 +260,7 @@
   }
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 667px) {
     .ui.horizontal.segments img {
         height: 80px;
         
