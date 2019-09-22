@@ -1,5 +1,11 @@
 /* MEDIA SCREENS */
 /* for services horizontal image stack */
+@media screen and (max-width: 1336px) {
+    .image-segm-img img {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 1211px) {
     .ui.horizontal.segments img {
         height: 140px;
@@ -149,8 +155,9 @@
 
     #fourth .image-segm-desc {
     float: none;
-    margin: 0 auto;
-    
+    margin: 0;
+    margin-left: 33%
+
 }
 
    

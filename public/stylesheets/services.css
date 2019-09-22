@@ -79,9 +79,11 @@ div.content-box2, div.content-box4 {
 }
 
 .image-segm-img img {
-    width: 85vh;
+    width: 100%;
     border-radius: 50px;
 }
+
+
 
 .image-segm-desc {
     /* float: left; */
@@ -103,6 +105,7 @@ div.content-box2, div.content-box4 {
     float: left;
     margin-left: 5%;
 }
+
 
 #third .image-segm-img {
     float: right;
