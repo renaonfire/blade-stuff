@@ -206,8 +206,8 @@
 
     #video {
         float: left;
-        margin-top: 1vh;
-        margin-left: 5vh;
+        margin-top: 1%;
+        margin-left: 5%;
         
     }
 
@@ -271,9 +271,11 @@
     }
 
     #video {
-        margin-left: 5%;
-        width: 70%;
-        float: right;
+       
+        margin-right: 5%;
+        margin-bottom: 10%;
+        width: 100%;
+        float: left;
           
       }
     #video iframe {
@@ -411,13 +413,7 @@
         height: 100px;
       }
 
-    #video {
-        margin-left: 0;
-        margin-right: 5%;
-        float: left;
-        margin-bottom: 10%;
-        
-    }
+   
 
   }
 
