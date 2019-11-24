@@ -2,3 +2,12 @@ html, body {
     background-image: url("/SliderWithFade.jpg");
     overflow: hidden;
 }
+
+@media screen and (max-width: 800px) {
+    html, body {
+        background-image: url("/SliderWithFade800.jpg");
+        background-position: left;
+    }
+    
+    
+}
