@@ -1,5 +1,6 @@
-div.content-box4 {
+div.content-box1 {
     background-image: url("/Slider1-1.jpg");
+    background-position: left;
   }
 
   div.content-box2 {
@@ -10,8 +11,11 @@ div.content-box4 {
     background-image: url("/TheInspector.jpg");
   }
 
-  .content-box2 .subcontent, .content-box3 .subcontent {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    border-radius: 10px;
-  }
+
+ h1, p {
+   background-color: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+   border-radius: 10px;
+ }
+
+

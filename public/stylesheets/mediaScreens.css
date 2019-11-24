@@ -1,483 +1,316 @@
 /* MEDIA SCREENS */
-/* for services horizontal image stack */
-@media screen and (max-width: 1336px) {
-    .image-segm-img img {
-        width: 100%;
-    }
+
+@media screen and (max-height: 870px) {
+   .subcontent {
+       padding-top: 5vh;
+   }
 }
 
-@media screen and (max-width: 1112px) {
-    .ui.horizontal.segments img {
-        height: 140px;
-        
+@media screen and (max-height: 601px) {
+    #contacts-divider {
+        display: none;
     }
 
-    .ui.grid > [class*="seven wide"].column {
-        width: 52% !important;
-    }
+   textarea.form-control {
+       height: 100px;
+   }
 
-    .ui.grid > [class*="nine wide"].column {
-        width: 48% !important;
-    }
-    #video {
-        margin: 0;
-        margin-top: 25%;
-        
-    }
+   label {
+       font-size: 21px;
+   }
 
-    #video iframe {
-        height: 200px;
-        width: 330px;
-    }
-    #play-button button {
-        margin-top: 40%;
-    }
+   .ui.button {
+       font-size: 21px;
+   }
+
+   .form-control {
+       font-size: 19px;
+   }
+
+   .grid {
+       margin-top: 15vh;
+   }
+
+   #main-description h1 {
+       font-size: 55px;
+   }
+
+   #moto {
+       font-size: 35px;
+   }
 }
+
 
 @media screen and (max-width: 1024px) {
-/* landing screen only */
-    #main-description h1 {
-      font-size: 43px;
-    }
-    #moto {
-        font-size: 30px;
-    }
-    #desc {
-        font-size: 18px;
+    html {
+        font-size: 17px;
     }
 
-    #video {
-        float: left;
-        margin-top: 10%;
-        margin-left: 5%;
+    h1 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+    #first-desc {
+        font-size: 23px;
+    }
+ 
+    .container {
+        max-width: 800px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .grid {
+        grid-template-columns: 100%;
+    }
+
+    .container {
+        max-width: 700px;
+    }
+
+    .video-grid {
+        margin: 0;
     }
 
     #video iframe {
-        height: 180px;
-        width: 320px;
+        height: 280px;
     }
 
-    #play-button button {
-        margin-top: 10%;
+    #contact-subcontent {
+        padding-top: 10vh;
+    }
+}
+
+
+@media screen and (max-width: 601px) {
+    .container {
+        max-width: 500px;
     }
 
-    /* footer and nav */
-    #footer a {
-        font-size: 25px;
+    #video iframe {
+        height: 230px;
     }
 
-    #footer {
-        padding-left: 30px;
+    .col-sm-12 {
+        margin-bottom: 40px;
     }
 
-    #right-nav {
-        visibility: collapse;
-    }
-    
-    .hamburger {
-        display: block;
+    .ui.button {
+        width: 100%;
     }
 
-    #icon-nav a:hover {
-        font-size: 13px;
-    }
-
-    #logo {
-        height: 45px;
-    }
-
-    /* images on service 3 x  */
-    .ui.horizontal.segments img {
-        height: 140px;
-        
-    }
-    
-    .image-segm-desc p {
-        font-size: 25px;
-    }
-
-    .image-segm-img img {
-      height: 330px;
-      width: auto;
-    }
-
-    /* services and other pages */
-    .content-box p {
-        font-size: 22px;
-    }
-
-    .content-box .subcontent h1 {
+    h1 {
         font-size: 40px;
     }
 
-    
-
-  }
-
-/* nexus 7 tablet */
-  @media screen and (max-width: 960px) {
-
-    #main-content {
-        margin-top: 15vh;
+    p {
+        font-size: 22px;
     }
 
-    .ui.grid > [class*="seven wide"].column {
-        width: 75% !important;
-    }
-    .ui.grid > [class*="nine wide"].column {
-        width: 75% !important;
-    }
-
-    #video {
-        margin-top: 0;
-    }
-
-    #video iframe {
-        height: 140px;
-        width: 260px;
-    }
-
-    #play-button button {
-        margin-top: 0;
-        margin-left: 4%;
-    }
-
-    #contact-subcontent {
-        width: 60%;
-        left: 20%;
-
-    }
-    .ui.horizontal.segments img {
-        height: 130px;
-        
-    }
-
-    .image-segm-img img {
-        height: 300px;
-      }
-
-    #textbox textarea {
-        height: 100px;
-    }
-
-    .ui.horizontal.divider i {
+    h3 {
         font-size: 25px;
     }
 
-  }
-
-@media screen and (max-width: 896px) {
-    #main-description h1 {
-      font-size: 33px;
+    .subcontent-grid {
+        grid-template-columns: 100%;
     }
-    #moto {
-        font-size: 25px;
-    }
-    #desc {
-        font-size: 14px;
-    }
-    #icon-nav {
-        margin-right: 70px;
-        background-color: rgba(0, 0, 0, 0.7);
-        
-    }
-    
-    #icon-nav a {
-        font-size: 11px;
-    }
-    #icon-nav a:hover {
-        font-size: 11px;
-    }
-    #logo {
-        height: 40px;
-    }
-    .ui.horizontal.segments img {
-        height: 90px;
-        
-    }
-
-
-    #video {
-        float: left;
-        margin-top: 1%;
-        margin-left: 5%;
-        margin-bottom: 10%;
-        
-    }
-
-   .content-box .subcontent {
-    left: 0;
-    top: 20vh;
-    margin: 0 auto;
-    position: relative;
-    padding-bottom: 5%;
-    
-    
-}
-
-    .content-box .subcontent h1 {
-    font-size: 33px;
-
-}
-
-    .content-box .subcontent p {
-    font-size: 16px;
-}
-
-    #third .image-segm-img {
-        float: none;
-        margin-bottom: 10%;
-    }
-    .image-segm-img {
-        margin-left: 15%;
-        
-    }
-    .image-segm-img img {
-        height: 170px;
-    }
-
-
-    #third .image-segm-desc {
-    float: none;
-    margin: 0;
-    margin-left: 37%
-}
-
-
-    #fourth .image-segm-desc {
-    float: none;
-    margin: 0;
-    margin-left: 37%
-
-}
-
-    #contact-subcontent {
-        left: 0;
-        margin-bottom: 10%;
-    }
-
-   
-
-  }
-
-
-@media screen and (max-width: 667px) {
-    .ui.horizontal.segments img {
-        height: 80px;
-        
-    }
-
-    .content-box .subcontent h1 {
-        font-size: 27px;
-
-    }
-    .content-box .subcontent p {
-        font-size: 13px; 
-    }
-
 }
 
 @media screen and (max-width: 414px) {
-    
-    html, body {
-        background-position: right;
-    }
-    
+  html {
+      font-size: 14px;
+  }
+
+  .navbar-brand img {
+      width: 80%;
+  }
+  #footer a {
+      font-size: 20px;
+  }
+
+  .container {
+      max-width: 380px;
+  }
+  .grid {
+      margin-top: 10vh;
+  }
+
     #main-description h1 {
-      font-size: 25px;
+        font-size: 45px;
     }
 
-    #main-content {
-        margin-top: 60px;
+    #moto {
+        font-size: 30px;
     }
     
-    #moto {
+    #desc {
         font-size: 18px;
     }
-    #desc {
-        font-size: 15px;
+
+    #video iframe {
+        height: 160px;
     }
-    
-    #footer a {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    h3 {
         font-size: 22px;
     }
-   
-    #icon-nav a {
-        font-size: 10px;
-    }
-    #logo {
-        height: 30px;
+
+    #first-desc, #sec-desc {
+        font-size: 20px;
     }
 
-    #video {
-       
-        margin-right: 5%;
-        margin-bottom: 10%;
-        width: 100%;
-        float: left;  
-    }
-    #video iframe {
-        height: 200px;
-        width: 320px;
-    }
-   
-    #icon-nav a:hover {
-        font-size: 10px;
-    }
-    #footer {
-        padding-left: 40px;
-        position: fixed;
-        margin-top: 20px;
-    }
-    #navbar {
-        background-color: rgba(0, 0, 0, 0.5);
-        
-    }
-    .ui.horizontal.segments img {
-        height: 70px;
-        
-    }
-    .image-segm-img img {
-        height: 180px;
-        width: auto;
-      }
-    #third .image-segm-desc {
-        margin-left: 37%;
-
-    }
-    #fourth .image-segm-desc {
-        margin-left: 37%;
-    }
-    #third .image-segm-img {
-        margin: 0;
-        margin-top: 30px;
-
-    }
-    #fourth .image-segm-img {
-       
-        margin: 0;
-        margin-top: 30px;
-    }
-
-    .content-box .subcontent p {
-        font-size: 15px
-    }
-
-    .content-box .subcontent h1 {
+    h2 {
         font-size: 26px;
     }
 
+    #ham-links a {
+        font-size: 20px;
+    }
 
-    #third-horiz-segm {
+    #contacts-divider {
         display: none;
     }
-    .ui.horizontal.divider i {
-        font-size: 20px;
-    }   
-    .content-box .subcontent {
-        width: 75%;
 
-    }   
-    .ui.form .field > label {
-        font-size: 13px;
+    #contact-subcontent h1 {
+        padding-bottom: 10px;
     }
 
-    #textbox textarea {
-        height: 200px;
-    }
-    #main-content {
-        margin-top: 120px;
+    label {
+        font-size: 18px;
+        
     }
 
-    #contact-subcontent {
-        left: 0;
+    .form-control {
+        font-size: 16px;
     }
-   
-    
 
+    .ui.button {
+        font-size: 18px;
+    }
+
+    textarea.form-control {
+        height: 80px;
+    }
 }
 
+@media screen and (max-width: 375px) {
+    .container {
+        max-width: 330px;
+    }
 
-  /* iphone 6 */
+    #main-description h1 {
+        font-size: 40px;
+    }
 
-  @media screen and (max-width: 375px) {
+    #moto {
+        font-size: 25px;
+    }
+
+    #play-button-button {
+        font-size: 45px;
+    }
 
     #video iframe {
-        height: 160px;
-        width: 290px;
+        height: 132px;
     }
 
-    .image-segm-img img {
-        height: 160px;
-        width: auto;
-      }
-
-    .content-box .subcontent h1 {
-        font-size: 26px;
+    #ham-links a {
+        font-size: 18px;
     }
-    .content-box .subcontent p {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    #first-desc, #sec-desc {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    .form-control, textarea.form-control {
         font-size: 14px;
     }
 
-    .image-segm-img {
-        margin: 0;
-        margin-top: 30px;
+   .ui.button {
+       font-size: 16px;
+   }
+
+}
+
+@media screen and (max-width:320px) {
+    .container {
+        max-width: 300px;
     }
 
-    .image-segm-img img {
-        height: 160px;
-        width: auto;
+    #main-description h1 {
+        font-size: 35px;
     }
 
-    .image-segm-desc {
-        margin: 0;
-        margin-left: 33%
+    #moto {
+        font-size: 22px;
     }
 
-    .ui.horizontal.segments img {
-        height: 65px;
+    #desc {
+        font-size: 16px;
     }
 
-
-    #textbox textarea {
-        height: 100px;
-      }
-
-   
-
-  }
-
-  /* iphone 5 */
-  @media screen and (max-width: 320px) {
-
-    html, body {
-        overflow: auto;
+    h1 {
+        font-size: 24px;
     }
 
-    .content-box .subcontent h1 {
-        font-size: 20px;
-    }
-    .content-box .subcontent p {
-        font-size: 13px;
+    p {
+        font-size: 14px;
     }
 
-    .image-segm-img img {
-        height: 135px;
-        width: auto;
-      }
-
-    #video iframe {
-        height: 120px;
-        width: 220px;
-    }
-    .ui.horizontal.segments img {
-        height: 52px;
+    h3 {
+        font-size: 17px;
     }
 
+    #first-desc, #sec-desc {
+        font-size: 15px;
     }
 
-    @media screen and (max-height: 567px) {
-        html, body {
-            overflow: auto;
-        }
+    h2 {
+        font-size: 18px;
     }
+
+    label {
+        font-size: 15px;
+    }
+
+    .ui.button {
+        font-size: 15px;
+    }
+
+}

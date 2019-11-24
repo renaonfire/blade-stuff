@@ -9,58 +9,93 @@
 
     
         <div id="first" class="content-box content-box1">
-            <div class="subcontent show-on-scroll">
+            <div class="container">
+                <div class="subcontent">
                 <h1>Our Services</h1>
                 <div class="ui horizontal divider"><i class="rocket icon"></i></div>
                 <p>Air Blade provides a professional and detailed inspection of Wind Turbine Blades by SUAV. High-resolution photos and videos are collected and a damage report is provided by our team of certified Wind Turbine Blade technicians, which includes engineers with more than 15 years of experience assessing and repairing wind turbine blades</p>
-            </div>        
+            </div>
+            
+            </div>  
+            <div class="scroll-icon"><i class="angle double down icon"></i></div>      
         </div>
 
         <div id="second" class="content-box content-box2">
-            <div class="subcontent show-on-scroll">
+            <div class="container">
+                <div class="subcontent">
                 <h1>What Can Be Achieved</h1>
                 <p>Aerial Wind Turbine Blade Inspection can be done as complementary or alternative option for a safe, time efficient and cost-saving way of inspecting Wind Turbines onshore and offshore. 
                 <br>The whole outside of a turbine can be inspected using SUAV, including:</p>
-                <div class="ui horizontal segments">
-                    <div class="ui segment">
-                        <img src="/Hatch.jpg" alt="">
-                        <div class="ui horizontal divider">Hatch</div> 
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                        <div class="thumbnail">
+                            <img src="/Hatch.jpg" alt="...">
+                            <div class="caption">
+                              <h3>Hatch</h3>
+                              
+                            </div>
+                        </div>
                     </div>
-                    <div class="ui segment">
-                        <img src="/Hub.jpg" alt="">
-                        <div class="ui horizontal divider">Hatch</div> 
+                    <div class="col-sm-12 col-md-4">
+                        <div class="thumbnail">
+                            <img src="/Hub.jpg" alt="...">
+                            <div class="caption">
+                                <h3>Hub</h3>
+                                    
+                            </div>
+                        </div>
                     </div>
-                    <div id="third-horiz-segm" class="ui segment">
-                        <img src="/Tower.jpg" alt="">
-                        <div class="ui horizontal divider">Hatch</div> 
+                        <div class="col-sm-12 col-md-4">
+                            <div class="thumbnail">
+                                <img src="Tower.jpg" alt="...">
+                                <div class="caption">
+                                    <h3>Tower</h3>
+                                        
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                                
                 </div>
             </div>
+            <div class="scroll-two"><i class="angle double down icon"></i></div>     
         </div>
 
         <div id="third" class="content-box content-box3">
-            <div class="subcontent show-on-scroll">
+            <div class="container">
+                <div class="subcontent">
                 <h1>Inspection Results</h1>
-                <div class="image-segm-desc">
-                    <p>Cracks </p>
-                </div>
-                <div class="image-segm-img">
-                    <img src="/DrainHole.jpg" alt="">
+                <p id="first-desc">A report will be produced after the inspection has been completed, any damage identified will be highlighted in the report. </p>
+                <div class="subcontent-grid">
+                    <div class="segm-desc">
+                        <h2>Cracks </h2>
+                        <p>Where cracks are identified, a picture will be taken of the damaged area as well as a close demonstrating the extent of the crack</p>
+                    </div>
+                    <div class="segm-img">
+                        <img src="/DrainHole.jpg" alt="">
+                    </div>
                 </div>
             </div>
+            </div>
+            <div class="scroll-two"><i class="angle double down icon"></i></div>     
         </div>
 
         <div id="fourth" class="content-box content-box4">
-            <div class="subcontent show-on-scroll">
-                <!-- <h1>Inspection Results</h1> -->
-                <div class="image-segm-desc">
-                    <p>Erosion </p>
+            <div class="container">
+                <div class="subcontent">
+                <h1>Inspection Results</h1>
+                <p id="sec-desc">A report will be produced after the inspection has been completed, any damage identified will be highlighted in the report. </p>
+                <div class="subcontent-grid">
+                <div class="segm-desc">
+                    <h2>Erosion</h2>
+                    <p>The same principal is applied for erosion, where a picture is taken of the damaged area as well as a close up to demonstrate the extent of the damage </p>
                 </div>
-                <div class="image-segm-img">
+                <div class="segm-img">
                     <img src="/Erosion.jpg" alt="">
                 </div>
             </div>
+                </div>
+            </div>
+      
         </div>
 
     
@@ -68,14 +103,6 @@
 
 
 <% include ./partials/footer %>
-
-<script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.min.js"></script>
-
-<script src="/JS/services.js" type="text/javascript"></script>
 
 </body>
 </html>

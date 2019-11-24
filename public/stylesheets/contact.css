@@ -1,32 +1,6 @@
 html, body {
-    overflow: hidden;
-}
- .content-box {
-     position: relative;
-     width: 100%;
-     min-height: 100%;
- }
  
- .content-box .subcontent {
-     position: absolute;
-     top: 20%;
-     left: 25%;
-     text-align: center;
-     font-size: 23px;
-     width: 50%;
-     font-family: 'Red Hat Text', sans-serif;
-     color: #FEFF02;
- }
- 
- .content-box .subcontent h1 {
-     font-family: 'Montserrat Subrayada', sans-serif;
-     font-size: 42px;
- }
-
-
- .ui.horizontal.divider i {
-    font-size: 40px;
-    color: rgba(0, 0, 0, 0.5);
+    background-image: url("/SliderWithFade.jpg");
 }
 
 form div {
@@ -34,9 +8,22 @@ form div {
     
 }
 
-.ui.form .field>label {
-    font-family: 'Red Hat Text', sans-serif;
+.form-control:focus {
+    border-color: #FEFF02;
     color: #FEFF02;
-    font-size: 16px;
+    box-shadow: 0 0 0 0.2rem rgba(179, 179, 77, 0.705)
 }
 
+label {
+    font-size: 23px;
+}
+
+.form-control {
+    font-size: 21px;
+}
+
+.ui.button {
+    font-size: 23px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 800;
+}

@@ -1,27 +1,74 @@
-html, body {
-   height: 100%
+.bg-light {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+  
 }
 
 .content-box {
     position: relative;
     width: 100%;
     min-height: 100%;
+    
 }
 
-.content-box .subcontent {
-    position: absolute;
-    top: 25%;
-    left: 10%;
-    text-align: center;
-    font-size: 23px;
-    width: 80%;
-    font-family: 'Red Hat Text', sans-serif;
+.subcontent {
+    padding-top: 20vh;
     color: #FEFF02;
 }
 
-.content-box .subcontent h1 {
+.subcontent-grid {
+    display: grid;
+    grid-template-columns: 40% auto;
+    padding-top: 25px;
+    grid-gap: 3%;
+}
+
+
+
+h1 {
     font-family: 'Montserrat Subrayada', sans-serif;
     font-size: 42px;
+    text-align: center;
+    
+}
+
+p {
+    font-size: 23px;
+    padding-top: 10px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.segm-img img {
+    width: 100%;
+}
+
+#first-desc, #sec-desc {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.scroll-icon, .scroll-two {
+    text-align: center;
+    color: yellow;
+    font-size: 30px;
+    position: absolute;
+    width: 100%;
+    
+}   
+
+.scroll-icon {
+    animation: scrollOne 2s linear infinite;
+}
+
+.scroll-two {
+    animation: scrollTwo 2s linear infinite;
 }
 
 .ui.horizontal.divider i {
@@ -29,9 +76,7 @@ html, body {
     color: rgba(0, 0, 0, 0.5);
 }
 
-.ui.horizontal.divider {
-    color: #FEFF02;
-}
+
 
 div.content-box2, div.content-box4 {
     background-image: url("/Slider1.jpg");
@@ -44,88 +89,73 @@ div.content-box2, div.content-box4 {
 
 
   div.content-box1, div.content-box3 {
-    /* color: rgb(121, 120, 120); */
+    background-image: url("/UAV.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
   }
 
-  div.content-box1 {
-    background-image: url("/UAV.jpg");
-  }
-  div.content-box3 {
-    background-image: url("/UAV.jpg");
+
+  @keyframes scrollOne {
+      0% {
+          bottom: 13vh;
+      }
+
+      16% {
+          bottom: 12vh;
+      }
+
+      33% {
+          bottom: 11vh;
+      }
+
+      50% {
+          bottom: 10vh;
+      }
+
+      67% {
+          bottom: 11vh;
+      }
+
+      83% {
+          bottom: 12vh;
+      }
+
+      100% {
+          bottom: 13vh;
+      }
+
   }
 
+  @keyframes scrollTwo {
+    0% {
+        bottom: 5vh;
+    }
 
-  .ui.horizontal.segments {
-      background-color: rgba(0, 0, 0, 0);
-      border: none;
-      box-shadow: none;
-  }
+    16% {
+        bottom: 4vh;
+    }
 
-  .ui.horizontal.segments img {
-      border-radius: 10%;
-  }
+    33% {
+        bottom: 3vh;
+    }
 
-  .image-segm-img {
-    height: 100%;
-    width: 70%;
+    50% {
+        bottom: 2vh;
+    }
+
+    67% {
+        bottom: 3vh;
+    }
+
+    83% {
+        bottom: 4vh;
+    }
+
+    100% {
+        bottom: 5vh;
+    }
+
+}
     
-
-}
-
-.image-segm-img img {
-    width: 100%;
-    border-radius: 50px;
-}
-
-
-
-.image-segm-desc {
-    /* float: left; */
-    width: 25%;
-    text-align: center;
-    height: 100%;
-    margin-top: 20vh;
-    
-    
-}
-
-.image-segm-desc p {
-    font-size: 35px;
-    padding: 10px;
-    text-transform: uppercase;
-}
-
-#third .image-segm-desc {
-    float: left;
-    margin-left: 5%;
-}
-
-
-#third .image-segm-img {
-    float: right;
-}
-
-#fourth .image-segm-desc {
-    float: right;
-    margin-right: 5%;
-}
-
-#fourth .image-segm-img {
-    float: left;
-}
-
-
-/* animaiton */
-
-/* .subcontent .show-on-scroll{
-    
-    opacity: 0;
-    transition: opacity .85s .25s ease-out;
-  }
-  
-.subcontent .show-on-scroll .is-visible {
-    opacity: 1;
-  } */
+   

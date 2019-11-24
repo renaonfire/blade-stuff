@@ -1,3 +1,4 @@
 html, body {
+    background-image: url("/SliderWithFade.jpg");
     overflow: hidden;
 }
