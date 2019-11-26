@@ -28,9 +28,13 @@ body {
 
 .navbar-light .navbar-nav .nav-link {
     color: #79CC50;
-    font-size: 16px;
-    font-family: 'Montserrat Subrayada', sans-serif;;
+    font-size: 14px;
+    font-family: 'Montserrat Subrayada', sans-serif;
     
+}
+
+.navbar-brand img {
+    height: 50px;
 }
 
 .nav-item {
@@ -204,7 +208,6 @@ button:focus {
 .navbar-light .navbar-nav .nav-link:hover {
     color: #FEFF02;
     animation: shake 95ms infinite;
-    font-size: 17px;
     animation-timing-function: linear;  
 }
 

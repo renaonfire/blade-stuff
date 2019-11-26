@@ -10,20 +10,19 @@ form div {
 
 .form-control:focus {
     border-color: #FEFF02;
-    color: #FEFF02;
     box-shadow: 0 0 0 0.2rem rgba(179, 179, 77, 0.705)
 }
 
 label {
-    font-size: 23px;
+    font-size: 17px;
 }
 
 .form-control {
-    font-size: 21px;
+    font-size: 14px;
 }
 
 .ui.button {
-    font-size: 23px;
+    font-size: 16px;
     font-family: 'Red Hat Text', sans-serif;
     font-weight: 800;
 }

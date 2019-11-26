@@ -31,8 +31,12 @@ h1 {
     
 }
 
+h3 {
+    font-size: 21px;
+}
+
 p {
-    font-size: 23px;
+    font-size: 20px;
     padding-top: 10px;
 }
 
@@ -45,7 +49,7 @@ p {
 }
 
 #first-desc, #sec-desc {
-    font-size: 26px;
+    font-size: 24px;
 }
 
 h2 {
@@ -54,7 +58,9 @@ h2 {
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
-.scroll-icon, .scroll-two {
+.scroll-icon 
+/* .scroll-two  */
+{
     text-align: center;
     color: yellow;
     font-size: 30px;
@@ -67,9 +73,9 @@ h2 {
     animation: scrollOne 2s linear infinite;
 }
 
-.scroll-two {
+/* .scroll-two {
     animation: scrollTwo 2s linear infinite;
-}
+} */
 
 .ui.horizontal.divider i {
     font-size: 40px;
@@ -86,7 +92,9 @@ div.content-box2, div.content-box4 {
     background-attachment: fixed;
 }
 
-
+div.content-box1 {
+    min-height: 92%;
+}
 
   div.content-box1, div.content-box3 {
     background-image: url("/UAV.jpg");
@@ -105,7 +113,7 @@ div.content-box2, div.content-box4 {
       }
   }
 
-
+/* 
   @keyframes scrollOne {
       0% {
           bottom: 13vh;
@@ -135,9 +143,9 @@ div.content-box2, div.content-box4 {
           bottom: 13vh;
       }
 
-  }
+  } */
 
-  @keyframes scrollTwo {
+  @keyframes scrollOne {
     0% {
         bottom: 5vh;
     }
