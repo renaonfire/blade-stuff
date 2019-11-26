@@ -1,5 +1,10 @@
 /* MEDIA SCREENS */
 
+@media (min-width: 1400px) {
+    .container
+}
+
+
 @media screen and (max-height: 870px) {
    .subcontent {
        padding-top: 5vh;
@@ -29,10 +34,31 @@
    }
 }
 
+@media screen and (max-height: 414px) {
+    .grid {
+        margin-top: 5vh;
+    }
+
+   
+}
+
+
+@media screen and (max-width: 1280px) {
+    #video iframe {
+        height: 250px;
+        width: 460px;
+    }
+}
+
 
 @media screen and (max-width: 1024px) {
     html {
         font-size: 17px;
+    }
+
+    #video iframe {
+        height: 200px;
+        width: 360px;
     }
 
     .navbar-brand img {
@@ -75,6 +101,7 @@
 
     #video iframe {
         height: 280px;
+        width: 460px;
     }
 
     #contact-subcontent {
@@ -90,6 +117,7 @@
 
     #video iframe {
         height: 230px;
+        width: 350px;
     }
 
     .col-sm-12 {
@@ -136,6 +164,9 @@
       margin-top: 10vh;
   }
 
+  .video-grid {
+      grid-template-columns: 100%;
+  }
     #main-description h1 {
         font-size: 45px;
     }
@@ -148,9 +179,7 @@
         font-size: 18px;
     }
 
-    #video iframe {
-        height: 160px;
-    }
+
 
     h1 {
         font-size: 30px;
@@ -205,7 +234,8 @@
     }
 
     #video iframe {
-        height: 132px;
+        height: 170px;
+        width: 300px;
     }
 
     #ham-links a {
@@ -238,6 +268,11 @@
 @media screen and (max-width:320px) {
     .container {
         max-width: 300px;
+    }
+
+    #video iframe {
+        height: 145px;
+        width: 270px;
     }
 
     #main-description h1 {

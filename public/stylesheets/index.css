@@ -175,8 +175,8 @@ button:focus {
 }
 
 #video iframe {
-    width: 100%;
-    height: auto;
+    width: 530px;
+    height: 275px;
 }
 
 /* FOOTER STYLES */
